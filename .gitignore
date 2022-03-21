@@ -115,3 +115,6 @@ dist
 .idea/
 .vscode/
 tools/dev
+
+# SQLite database file
+*.sqlite

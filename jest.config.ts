@@ -1,4 +1,5 @@
 import 'dotenv/config'
+
 import type { Config as JestConfig } from '@jest/types'
 
 const config: JestConfig.InitialOptions = {
