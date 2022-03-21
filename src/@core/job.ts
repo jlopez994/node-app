@@ -39,6 +39,7 @@ class Job {
 
   stop() {
     this.active.forEach(task => task.stop());
+    this.active = [];
   }
 }
 
